@@ -4,6 +4,7 @@ import textblob
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import re
 import pandas as pd
+import matplotlib.pyplot as plot
 
 with open('credentials.json', 'r') as f:
     cred = json.load(f)
@@ -15,9 +16,10 @@ api = tweepy.API(auth)
 
 def byUsername():
     user_name = input("Enter Username : ")
+    num = int(input("Enter number of tweets(Max 20 allowed) : "))
     user = api.get_user(user_name)
     timeline = api.user_timeline(user.id, tweet_mode = "extended")
-    return timeline
+    return timeline[:num]
 
 def byQueries():
     query = input("Enter search query : ")
@@ -70,6 +72,16 @@ def get_dataframe(data):
     df = pd.DataFrame(data = data, columns = col)
     return df
 
+def plot_graph(data, pol):
+    x_axis = []
+    y_axis = []
+    for tweet in data:
+        x_axis.append(tweet['author'])
+        y_axis.append(get_polarity(tweet)[pol])
+    plot.bar(x_axis, y_axis)
+    print(f"\nBy using {pol} Sentiment Analyzer")
+    plot.show()
+    
 while True:
     print("1. Get tweet data by username")
     print("2. Get tweet data by query")
@@ -91,6 +103,9 @@ while True:
         
     dataframe = get_dataframe(data)
     print(dataframe)
+
+    plot_graph(data,"textblob")
+    plot_graph(data,"vader")
     
     choice2 = input("Data fetched..\nDo you want to save the data(Y/N) : ")
     if choice2.lower() == 'y':
