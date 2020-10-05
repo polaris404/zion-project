@@ -47,11 +47,22 @@ def get_tweet_data(tweets):
         tweets_data.append(tweet_data)
     return tweets_data
 
+def get_hashtags(tweet):
+    text = tweet['full_text']
+    pattern = re.compile(r"#(\w+)")
+    hashtags = re.findall(pattern, text)
+    return hashtags
+
 def get_polarity(tweet):
     text = tweet['full_text']
     clean_text = ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", text).split())
     analysis = textblob.TextBlob(clean_text)
     return analysis.sentiment.polarity
+
+def get_dataframe(data):
+    col = ['id', 'author', 'full_text', 'hashtag(s)', 'retweet_count', 'favorite_count', 'Polarity']
+    df = pd.DataFrame(data = data, columns = col)
+    return df
 
 while True:
     print("1. Get tweet data by username")
@@ -65,20 +76,20 @@ while True:
         break
     elif choice == '1':
         data = get_tweet_data(byUsername())
-        for tweet in data:
-            tweet['Polarity'] = get_polarity(tweet)
     elif choice == '2':
         data = get_tweet_data(byQueries())
-        for tweet in data:
-            tweet['Polarity'] = get_polarity(tweet)
-    col = ['id', 'author', 'full_text', 'retweet_count', 'favorite_count', 'Polarity']
-    df = pd.DataFrame(data = data, columns = col)
-    print(df)
 
+    for tweet in data:
+        tweet['Polarity'] = get_polarity(tweet)
+        tweet['hashtag(s)'] = get_hashtags(tweet)
+        
+    dataframe = get_dataframe(data)
+    print(dataframe)
+    
     choice2 = input("Data fetched..\nDo you want to save the data(Y/N) : ")
     if choice2.lower() == 'y':
         file_name = input("Enter file name : ")
-        df.to_csv(file_name +'.csv')
+        dataframe.to_csv(file_name +'.csv')
         with open(file_name + '.json', 'w') as f:
            f.write(json.dumps(data, indent = 4))
         print("Data added to the file...")
