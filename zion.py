@@ -67,17 +67,20 @@ while True:
         data = get_tweet_data(byUsername())
         for tweet in data:
             tweet['Polarity'] = get_polarity(tweet)
-            #print(tweet)
     elif choice == '2':
         data = get_tweet_data(byQueries())
         for tweet in data:
             tweet['Polarity'] = get_polarity(tweet)
-            #print(tweet)
     col = ['id', 'author', 'full_text', 'retweet_count', 'favorite_count', 'Polarity']
     df = pd.DataFrame(data = data, columns = col)
     print(df)
-    df.to_csv('sample_data.csv')
-    with open('sample_data.json', 'w') as f:
-       f.write(json.dumps(data, indent = 4))
-    print("Data added to the file...")
+
+    choice2 = input("Data fetched..\nDo you want to save the data(Y/N) : ")
+    if choice2.lower() == 'y':
+        file_name = input("Enter file name : ")
+        df.to_csv(file_name +'.csv')
+        with open(file_name + '.json', 'w') as f:
+           f.write(json.dumps(data, indent = 4))
+        print("Data added to the file...")
+    
     print("_________________________________________________________________\n")
