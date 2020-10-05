@@ -1,8 +1,10 @@
 import tweepy
 import json
 import textblob
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import re
 import pandas as pd
+
 with open('credentials.json', 'r') as f:
     cred = json.load(f)
     
@@ -54,10 +56,14 @@ def get_hashtags(tweet):
     return hashtags
 
 def get_polarity(tweet):
+    pol = {}
     text = tweet['full_text']
     clean_text = ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", text).split())
+    analyser = SentimentIntensityAnalyzer()
     analysis = textblob.TextBlob(clean_text)
-    return analysis.sentiment.polarity
+    pol['textblob'] = analysis.sentiment.polarity
+    pol['vader'] = analyser.polarity_scores(clean_text)['compound']
+    return pol
 
 def get_dataframe(data):
     col = ['id', 'author', 'full_text', 'hashtag(s)', 'retweet_count', 'favorite_count', 'Polarity']

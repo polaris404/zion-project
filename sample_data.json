@@ -1,162 +1,145 @@
 [
     {
-        "id": 1312760295228547073,
-        "full_text": "New SpaceX droneship will be called \u201cA Shortfall of Gravitas\u201d",
-        "author": "elonmusk",
-        "retweet_count": 1560,
-        "favorite_count": 22913,
-        "Polarity": 0.13636363636363635
+        "id": 1313106296900521984,
+        "full_text": "RT @SuperOverCard: #SuperOver Cricket Card Game \n\nT20 Ultimate Challenge Card Game\ud83c\udfcf\n\nMade in India \ud83c\uddee\ud83c\uddf3\n\nORDER NOW \n\nhttps://t.co/cKsdD3xFms\u2026",
+        "author": "2020cricketquiz",
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "Polarity": {
+            "textblob": -0.26666666666666666,
+            "vader": 0.0772
+        },
+        "hashtag(s)": [
+            "SuperOver"
+        ]
     },
     {
-        "id": 1312755779951226880,
-        "full_text": "Nothing can escape gravity, not even black holes (and they really tried!)",
-        "author": "elonmusk",
-        "retweet_count": 3840,
-        "favorite_count": 51087,
-        "Polarity": 0.016666666666666677
+        "id": 1313106292144173056,
+        "full_text": "RT @DPVEU_: Bhuvi And Mishra Out Of #IPL2020 https://t.co/jYh1zyQHik",
+        "author": "Alwayzscharan",
+        "retweet_count": 4,
+        "favorite_count": 0,
+        "Polarity": {
+            "textblob": 0.0,
+            "vader": 0.0
+        },
+        "hashtag(s)": [
+            "IPL2020"
+        ]
     },
     {
-        "id": 1312749532933877761,
-        "full_text": "@ID_AA_Carmack Would be cool to put yourself in the mind of the car while it's driving",
-        "author": "elonmusk",
-        "retweet_count": 134,
-        "favorite_count": 3357,
-        "Polarity": 0.35
+        "id": 1313106287366995968,
+        "full_text": "RT @Priyans23381713: Mumbai Indians Last 4 matches\n\n195/5 vs KKR\n201/5 vs RCB\n191/4 vs KXIP\n208/5 vs SRH\n\nOnly team to score 190+ in 4 Cons\u2026",
+        "author": "_sam_tweetz",
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "Polarity": {
+            "textblob": 0.0,
+            "vader": 0.0
+        },
+        "hashtag(s)": []
     },
     {
-        "id": 1312591262747299841,
-        "full_text": "@Model3teslaJ Coming soon",
-        "author": "elonmusk",
-        "retweet_count": 55,
-        "favorite_count": 861,
-        "Polarity": 0.0
+        "id": 1313106284246253569,
+        "full_text": "RT @SunRisers: Death bowling, performance from our youngsters and more!\n\n@VVSLaxman281 answered the media after #MIvSRH yesterday.\n\n#Orange\u2026",
+        "author": "HarshaRoyalzz",
+        "retweet_count": 49,
+        "favorite_count": 0,
+        "Polarity": {
+            "textblob": 0.5,
+            "vader": -0.5994
+        },
+        "hashtag(s)": [
+            "MIvSRH",
+            "Orange"
+        ]
     },
     {
-        "id": 1312545997499719680,
-        "full_text": "Call of Booty, great game",
-        "author": "elonmusk",
-        "retweet_count": 46595,
-        "favorite_count": 377551,
-        "Polarity": 0.2
+        "id": 1313106283852042240,
+        "full_text": "RT @SuperOverCard: #SuperOver Cricket Card Game \n\nT20 Ultimate Challenge Card Game\ud83c\udfcf\n\nMade in India \ud83c\uddee\ud83c\uddf3\n\nORDER NOW \n\nhttps://t.co/cKsdD3xFms\u2026",
+        "author": "2020cricketquiz",
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "Polarity": {
+            "textblob": -0.26666666666666666,
+            "vader": 0.0772
+        },
+        "hashtag(s)": [
+            "SuperOver"
+        ]
     },
     {
-        "id": 1312544132380778496,
-        "full_text": "https://t.co/HyfszSrm6m",
-        "author": "elonmusk",
-        "retweet_count": 10594,
-        "favorite_count": 144092,
-        "Polarity": 0.0
+        "id": 1313106279762550785,
+        "full_text": "RT @DHONIism: 6 Million Followers @ChennaiIPL\n\nFirst team to achieve this Milestone \ud83e\udd81\ud83d\udd25\n\n@MSDhoni \u2022 #IPL2020 \u2022 #WhistlePodu https://t.co/s1w\u2026",
+        "author": "nameisyeshwanth",
+        "retweet_count": 465,
+        "favorite_count": 0,
+        "Polarity": {
+            "textblob": 0.25,
+            "vader": 0.0
+        },
+        "hashtag(s)": [
+            "IPL2020",
+            "WhistlePodu"
+        ]
     },
     {
-        "id": 1312253928667410432,
-        "full_text": "@teslaownersSV @SpaceX Vector-space bird's eye view coming with FSD",
-        "author": "elonmusk",
-        "retweet_count": 243,
-        "favorite_count": 3173,
-        "Polarity": 0.0
+        "id": 1313106276432265216,
+        "full_text": "RT @Xpress_Sports: Big Blow for Sunrisers Hyderabad as #BhuvneshwarKumar has been ruled out of #IPL2020 due to a hip injury that he sustain\u2026",
+        "author": "Ravindra_TNIE",
+        "retweet_count": 2,
+        "favorite_count": 0,
+        "Polarity": {
+            "textblob": -0.0625,
+            "vader": -0.4215
+        },
+        "hashtag(s)": [
+            "BhuvneshwarKumar",
+            "IPL2020"
+        ]
     },
     {
-        "id": 1312252573575860226,
-        "full_text": "@PPathole @SpaceX Unexpected pressure rise in the turbomachinery gas generator",
-        "author": "elonmusk",
-        "retweet_count": 136,
-        "favorite_count": 2358,
-        "Polarity": 0.1
+        "id": 1313106270107312128,
+        "full_text": "RT @SuperOverCard: #SuperOver Cricket Card Game \n\nT20 Ultimate Challenge Card Game\ud83c\udfcf\n\nMade in India \ud83c\uddee\ud83c\uddf3\n\nORDER NOW \n\nhttps://t.co/cKsdD3xFms\u2026",
+        "author": "2020cricketquiz",
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "Polarity": {
+            "textblob": -0.26666666666666666,
+            "vader": 0.0772
+        },
+        "hashtag(s)": [
+            "SuperOver"
+        ]
     },
     {
-        "id": 1312251818731167744,
-        "full_text": "@Erdayastronaut @SpaceX All of that and more. We're doing a broad review of launch site, propulsion, structures, avionics, range &amp; regulatory constraints this weekend. I will also be at the Cape next week to review hardware in person.",
-        "author": "elonmusk",
-        "retweet_count": 254,
-        "favorite_count": 5327,
-        "Polarity": 0.1875
+        "id": 1313106270035959808,
+        "full_text": "RT @RCBTweets: Set a target or chase it down. What would you do, 12th Man Army? \ud83e\udd14\n\n#PlayBold #IPL2020 #WeAreChallengers #Dream11IPL #RCBvDC\u2026",
+        "author": "DarlingDharvesh",
+        "retweet_count": 140,
+        "favorite_count": 0,
+        "Polarity": {
+            "textblob": -0.15555555555555559,
+            "vader": 0.0
+        },
+        "hashtag(s)": [
+            "PlayBold",
+            "IPL2020",
+            "WeAreChallengers",
+            "Dream11IPL",
+            "RCBvDC"
+        ]
     },
     {
-        "id": 1312250543553744896,
-        "full_text": "@alandail @SpaceX Exactly",
-        "author": "elonmusk",
-        "retweet_count": 38,
-        "favorite_count": 1361,
-        "Polarity": 0.25
-    },
-    {
-        "id": 1312249542125842434,
-        "full_text": "@SpaceX We will need to make a lot of improvements to have a chance of completing 48 launches next year!",
-        "author": "elonmusk",
-        "retweet_count": 910,
-        "favorite_count": 23204,
-        "Polarity": 0.0
-    },
-    {
-        "id": 1312175510244356096,
-        "full_text": "@lexfridman I agree with Lex",
-        "author": "elonmusk",
-        "retweet_count": 2336,
-        "favorite_count": 70921,
-        "Polarity": 0.0
-    },
-    {
-        "id": 1312092581933641729,
-        "full_text": "@Mike94160775 @Tesla @ElectrekCo @Teslarati Glad you're ok!",
-        "author": "elonmusk",
-        "retweet_count": 52,
-        "favorite_count": 1895,
-        "Polarity": 0.5
-    },
-    {
-        "id": 1312085524572639233,
-        "full_text": "@Sofiaan @Tesla Haha",
-        "author": "elonmusk",
-        "retweet_count": 263,
-        "favorite_count": 14069,
-        "Polarity": 0.2
-    },
-    {
-        "id": 1311932353879646209,
-        "full_text": "@amoghbhushan @TeslaClubIN @WholeMarsBlog @MKBHD Thanks for waiting!",
-        "author": "elonmusk",
-        "retweet_count": 127,
-        "favorite_count": 3008,
-        "Polarity": 0.2
-    },
-    {
-        "id": 1311931936261263360,
-        "full_text": "@TeslaClubIN @WholeMarsBlog @MKBHD Next year for sure",
-        "author": "elonmusk",
-        "retweet_count": 1235,
-        "favorite_count": 6960,
-        "Polarity": 0.25
-    },
-    {
-        "id": 1311928474479792129,
-        "full_text": "@tobyliiiiiiiiii @RationalEtienne @SPEXcast @William_M_Brown @PPathole @thesheetztweetz @waEMD @SpaceX @SpaceXStarlink @WANationalGuard Oh yeah, Starship update coming in about 3 weeks. The design has coalesced. What is presented will actually be what flies to orbit as V1.0 with almost no changes.",
-        "author": "elonmusk",
-        "retweet_count": 540,
-        "favorite_count": 5024,
-        "Polarity": 0.0
-    },
-    {
-        "id": 1311927387421106176,
-        "full_text": "@RationalEtienne @SPEXcast @William_M_Brown @PPathole @thesheetztweetz @waEMD @SpaceX @SpaceXStarlink @WANationalGuard High frequency lasers are the way to go for sure",
-        "author": "elonmusk",
-        "retweet_count": 52,
-        "favorite_count": 1510,
-        "Polarity": 0.33
-    },
-    {
-        "id": 1311926507003088896,
-        "full_text": "@SPEXcast @William_M_Brown @RationalEtienne @PPathole @thesheetztweetz @waEMD @SpaceX @SpaceXStarlink @WANationalGuard Great",
-        "author": "elonmusk",
-        "retweet_count": 23,
-        "favorite_count": 1084,
-        "Polarity": 0.8
-    },
-    {
-        "id": 1311925958325211136,
-        "full_text": "@William_M_Brown @RationalEtienne @PPathole @thesheetztweetz @waEMD @SpaceX @SpaceXStarlink @WANationalGuard Brownsville is quite far south, so probably 3 months or so for good connectivity \u2014 needs several more Starlink launches. I'm using it at the little house I rent in the area. Definitely not good there yet.",
-        "author": "elonmusk",
-        "retweet_count": 54,
-        "favorite_count": 1297,
-        "Polarity": 0.1270833333333333
+        "id": 1313106269868154880,
+        "full_text": "RT @Trendulkar: What's common between Shaw, Mayank, Iyer, Pant, Padikkal, Samson, Gill, Saini, Nagarkoti, Ishan Kishan? All trained under o\u2026",
+        "author": "JagatChetan",
+        "retweet_count": 8576,
+        "favorite_count": 0,
+        "Polarity": {
+            "textblob": -0.3,
+            "vader": 0.0
+        },
+        "hashtag(s)": []
     }
 ]
