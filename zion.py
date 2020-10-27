@@ -8,7 +8,10 @@ import matplotlib.pyplot as plot
 
 with open('credentials.json', 'r') as f:
     cred = json.load(f)
-    
+
+with open('abbreviations.json', 'r') as f:
+    ABBREVIATIONS = json.load(f)
+
 consumer_key = cred['api_key']
 consumer_secret = cred['api_key_secret']
 auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
@@ -58,8 +61,12 @@ def get_hashtags(tweet):
     return hashtags
 
 def get_polarity(tweet):
+    global ABBREVIATIONS
     text = tweet['full_text']
     clean_text = ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", text).split())
+    for token in clean_text.split():
+        if token.upper() in ABBREVIATIONS.keys():
+            clean_text = re.sub(token.upper(), ABBREVIATIONS[token.upper()], clean_text)
     analyser = SentimentIntensityAnalyzer()
     analysis = textblob.TextBlob(clean_text)
     avg_pol = (analysis.sentiment.polarity + analyser.polarity_scores(clean_text)['compound'])/2
