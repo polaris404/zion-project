@@ -34,7 +34,7 @@ def byQueries():
     return tweets
 
 def get_tweet_data(tweets):
-    header = ['id', 'author', 'full_text', 'retweet_count', 'favorite_count', 'Polarity']
+    header = ['id', 'author', 'full_text', 'retweet_count', 'favorite_count', 'Avg Polarity']
     tweets_data = []
     for tweet in tweets:
         status_dict = vars(tweet)
@@ -58,28 +58,25 @@ def get_hashtags(tweet):
     return hashtags
 
 def get_polarity(tweet):
-    pol = {}
     text = tweet['full_text']
     clean_text = ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", text).split())
     analyser = SentimentIntensityAnalyzer()
     analysis = textblob.TextBlob(clean_text)
-    pol['textblob'] = analysis.sentiment.polarity
-    pol['vader'] = analyser.polarity_scores(clean_text)['compound']
-    return pol
+    avg_pol = (analysis.sentiment.polarity + analyser.polarity_scores(clean_text)['compound'])/2
+    return avg_pol
 
 def get_dataframe(data):
-    col = ['id', 'author', 'full_text', 'hashtag(s)', 'retweet_count', 'favorite_count', 'Polarity']
+    col = ['id', 'author', 'full_text', 'hashtag(s)', 'retweet_count', 'favorite_count', 'Avg Polarity']
     df = pd.DataFrame(data = data, columns = col)
     return df
 
-def plot_graph(data, pol):
+def plot_graph(data):
     x_axis = []
     y_axis = []
     for tweet in data:
         x_axis.append(tweet['author'])
-        y_axis.append(get_polarity(tweet)[pol])
+        y_axis.append(tweet['Avg Polarity'])
     plot.bar(x_axis, y_axis)
-    print(f"\nBy using {pol} Sentiment Analyzer")
     plot.show()
     
 while True:
@@ -98,14 +95,13 @@ while True:
         data = get_tweet_data(byQueries())
 
     for tweet in data:
-        tweet['Polarity'] = get_polarity(tweet)
+        tweet['Avg Polarity'] = get_polarity(tweet)
         tweet['hashtag(s)'] = get_hashtags(tweet)
         
     dataframe = get_dataframe(data)
     print(dataframe)
 
-    plot_graph(data,"textblob")
-    plot_graph(data,"vader")
+    plot_graph(data)
     
     choice2 = input("Data fetched..\nDo you want to save the data(Y/N) : ")
     if choice2.lower() == 'y':
