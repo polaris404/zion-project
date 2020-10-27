@@ -1,145 +1,227 @@
 [
     {
-        "id": 1313106296900521984,
-        "full_text": "RT @SuperOverCard: #SuperOver Cricket Card Game \n\nT20 Ultimate Challenge Card Game\ud83c\udfcf\n\nMade in India \ud83c\uddee\ud83c\uddf3\n\nORDER NOW \n\nhttps://t.co/cKsdD3xFms\u2026",
-        "author": "2020cricketquiz",
-        "retweet_count": 1,
-        "favorite_count": 0,
-        "Polarity": {
-            "textblob": -0.26666666666666666,
-            "vader": 0.0772
-        },
-        "hashtag(s)": [
-            "SuperOver"
-        ]
-    },
-    {
-        "id": 1313106292144173056,
-        "full_text": "RT @DPVEU_: Bhuvi And Mishra Out Of #IPL2020 https://t.co/jYh1zyQHik",
-        "author": "Alwayzscharan",
-        "retweet_count": 4,
-        "favorite_count": 0,
-        "Polarity": {
-            "textblob": 0.0,
-            "vader": 0.0
-        },
-        "hashtag(s)": [
-            "IPL2020"
-        ]
-    },
-    {
-        "id": 1313106287366995968,
-        "full_text": "RT @Priyans23381713: Mumbai Indians Last 4 matches\n\n195/5 vs KKR\n201/5 vs RCB\n191/4 vs KXIP\n208/5 vs SRH\n\nOnly team to score 190+ in 4 Cons\u2026",
-        "author": "_sam_tweetz",
-        "retweet_count": 1,
-        "favorite_count": 0,
-        "Polarity": {
-            "textblob": 0.0,
-            "vader": 0.0
-        },
-        "hashtag(s)": []
-    },
-    {
-        "id": 1313106284246253569,
-        "full_text": "RT @SunRisers: Death bowling, performance from our youngsters and more!\n\n@VVSLaxman281 answered the media after #MIvSRH yesterday.\n\n#Orange\u2026",
-        "author": "HarshaRoyalzz",
-        "retweet_count": 49,
-        "favorite_count": 0,
-        "Polarity": {
-            "textblob": 0.5,
-            "vader": -0.5994
-        },
-        "hashtag(s)": [
-            "MIvSRH",
-            "Orange"
-        ]
-    },
-    {
-        "id": 1313106283852042240,
-        "full_text": "RT @SuperOverCard: #SuperOver Cricket Card Game \n\nT20 Ultimate Challenge Card Game\ud83c\udfcf\n\nMade in India \ud83c\uddee\ud83c\uddf3\n\nORDER NOW \n\nhttps://t.co/cKsdD3xFms\u2026",
-        "author": "2020cricketquiz",
-        "retweet_count": 1,
-        "favorite_count": 0,
-        "Polarity": {
-            "textblob": -0.26666666666666666,
-            "vader": 0.0772
-        },
-        "hashtag(s)": [
-            "SuperOver"
-        ]
-    },
-    {
-        "id": 1313106279762550785,
-        "full_text": "RT @DHONIism: 6 Million Followers @ChennaiIPL\n\nFirst team to achieve this Milestone \ud83e\udd81\ud83d\udd25\n\n@MSDhoni \u2022 #IPL2020 \u2022 #WhistlePodu https://t.co/s1w\u2026",
-        "author": "nameisyeshwanth",
-        "retweet_count": 465,
-        "favorite_count": 0,
-        "Polarity": {
-            "textblob": 0.25,
-            "vader": 0.0
-        },
-        "hashtag(s)": [
-            "IPL2020",
-            "WhistlePodu"
-        ]
-    },
-    {
-        "id": 1313106276432265216,
-        "full_text": "RT @Xpress_Sports: Big Blow for Sunrisers Hyderabad as #BhuvneshwarKumar has been ruled out of #IPL2020 due to a hip injury that he sustain\u2026",
-        "author": "Ravindra_TNIE",
+        "id": 1321113469639221248,
+        "full_text": "RT @Cric_beat: Most runs Conceded by Rabada in an IPL match\n\n0/59 vs SRH (2017)\n0/54 vs SRH (Today)\n1/51 vs KKR (2020)\n\n#SRHvDC",
+        "author": "Dillu_sehwag44",
         "retweet_count": 2,
         "favorite_count": 0,
-        "Polarity": {
-            "textblob": -0.0625,
-            "vader": -0.4215
-        },
+        "Avg Polarity": 0.25,
         "hashtag(s)": [
-            "BhuvneshwarKumar",
-            "IPL2020"
+            "SRHvDC"
         ]
     },
     {
-        "id": 1313106270107312128,
-        "full_text": "RT @SuperOverCard: #SuperOver Cricket Card Game \n\nT20 Ultimate Challenge Card Game\ud83c\udfcf\n\nMade in India \ud83c\uddee\ud83c\uddf3\n\nORDER NOW \n\nhttps://t.co/cKsdD3xFms\u2026",
-        "author": "2020cricketquiz",
-        "retweet_count": 1,
+        "id": 1321113469530165248,
+        "full_text": "Warner half century \u2705\nSaha half century \u2705\nNd rabada half century \u2705 with Ball\n#IPL",
+        "author": "Imlohithvk18",
+        "retweet_count": 0,
         "favorite_count": 0,
-        "Polarity": {
-            "textblob": -0.26666666666666666,
-            "vader": 0.0772
-        },
+        "Avg Polarity": -0.08333333333333333,
         "hashtag(s)": [
-            "SuperOver"
+            "IPL"
         ]
     },
     {
-        "id": 1313106270035959808,
-        "full_text": "RT @RCBTweets: Set a target or chase it down. What would you do, 12th Man Army? \ud83e\udd14\n\n#PlayBold #IPL2020 #WeAreChallengers #Dream11IPL #RCBvDC\u2026",
-        "author": "DarlingDharvesh",
-        "retweet_count": 140,
+        "id": 1321113468968136704,
+        "full_text": "IPL 2020, SRH vs DC Live : \u090b\u0926\u094d\u0927\u0940\u092e\u093e\u0928 \u0938\u093e\u0939\u093e-\u0921\u0947\u0935\u094d\u0939\u093f\u0921 \u0935\u0949\u0930\u094d\u0928\u0930\u091a\u093e \u0926\u0923\u0915\u093e, \u0926\u093f\u0932\u094d\u0932\u0940\u0932\u093e \u0935\u093f\u091c\u092f\u093e\u0938\u093e\u0920\u0940 220 \u0927\u093e\u0935\u093e\u0902\u091a\u0947 \u0906\u0935\u094d\u0939\u093e\u0928  https://t.co/ueRIpc12mb #IPL2020 #SRH #DelhiCapitals #SRHvsDC #DCvsSRH",
+        "author": "TV9Marathi",
+        "retweet_count": 0,
         "favorite_count": 0,
-        "Polarity": {
-            "textblob": -0.15555555555555559,
-            "vader": 0.0
-        },
+        "Avg Polarity": 0.06818181818181818,
         "hashtag(s)": [
-            "PlayBold",
             "IPL2020",
-            "WeAreChallengers",
-            "Dream11IPL",
-            "RCBvDC"
+            "SRH",
+            "DelhiCapitals",
+            "SRHvsDC",
+            "DCvsSRH"
         ]
     },
     {
-        "id": 1313106269868154880,
-        "full_text": "RT @Trendulkar: What's common between Shaw, Mayank, Iyer, Pant, Padikkal, Samson, Gill, Saini, Nagarkoti, Ishan Kishan? All trained under o\u2026",
-        "author": "JagatChetan",
-        "retweet_count": 8576,
+        "id": 1321113468955627520,
+        "full_text": "Kagiso Rabada scored his first half century in IPL and goes wicketless for the first time in 26 matches \ud83d\ude01\ud83d\ude0b #SRH #SRHvDC #IPl2020",
+        "author": "BenAndrew07",
+        "retweet_count": 0,
         "favorite_count": 0,
-        "Polarity": {
-            "textblob": -0.3,
-            "vader": 0.0
-        },
+        "Avg Polarity": 0.05555555555555556,
+        "hashtag(s)": [
+            "SRH",
+            "SRHvDC",
+            "IPl2020"
+        ]
+    },
+    {
+        "id": 1321113467705700355,
+        "full_text": "This Is The First Time Were Rabada Went Wicktless In 26 Games In #IPL His Figure In This Match 4-0-54-0 #SRHvDC",
+        "author": "upendraligam",
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "Avg Polarity": 0.125,
+        "hashtag(s)": [
+            "IPL",
+            "SRHvDC"
+        ]
+    },
+    {
+        "id": 1321113466564833286,
+        "full_text": "RT @mohanstatsman: Kagiso Rabada...\non  2 May 2017 - DC v SRH (Delhi) - 4-0-59-0\nSince then has taken at least one wicket in his next 25 ga\u2026",
+        "author": "telkikar_anish",
+        "retweet_count": 16,
+        "favorite_count": 0,
+        "Avg Polarity": -0.075,
         "hashtag(s)": []
+    },
+    {
+        "id": 1321113466418192386,
+        "full_text": "IPL 2020, Live Cricket Score SRH vs DC :  \u0938\u093e\u0939\u093e (87) \u0914\u0930 \u0935\u0949\u0930\u094d\u0928\u0930 (66) \u0915\u0947 \u0926\u092e \u092a\u0930 SRH \u0928\u0947 \u0916\u0921\u093c\u093e \u0915\u093f\u092f\u093e 219/2 \u0915\u093e \u0935\u093f\u0936\u093e\u0932 \u0938\u094d\u0915\u094b\u0930 #IPL2020 #CricketDhamaka\n\nhttps://t.co/pow8e7TPjA",
+        "author": "IndiaTVHindi",
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "Avg Polarity": 0.06818181818181818,
+        "hashtag(s)": [
+            "IPL2020",
+            "CricketDhamaka"
+        ]
+    },
+    {
+        "id": 1321113464513810432,
+        "full_text": "@Tandoori_Reddy Obvious but e streak end avvadhu anukunna e IPL motham baaney break chesaru middle order kuda aadi",
+        "author": "AI_freak",
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "Avg Polarity": 0.0,
+        "hashtag(s)": []
+    },
+    {
+        "id": 1321113464249577473,
+        "full_text": "RT @IdrishVijay: #RCB 263 Highest Ipl score !! SAFE \ud83d\ude0d\ud83d\ude4f\ud83c\udffb",
+        "author": "Stf_offi",
+        "retweet_count": 2,
+        "favorite_count": 0,
+        "Avg Polarity": 0.5311,
+        "hashtag(s)": [
+            "RCB"
+        ]
+    },
+    {
+        "id": 1321113463993831429,
+        "full_text": "Rabada goes wicket less for the first time in his IPL Career.. So much #IPLT20 gives you.. #Dream11IPL #DCvsSRH",
+        "author": "theviratian_",
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "Avg Polarity": 0.04722222222222222,
+        "hashtag(s)": [
+            "IPLT20",
+            "Dream11IPL",
+            "DCvsSRH"
+        ]
+    },
+    {
+        "id": 1321113461972033536,
+        "full_text": "Rabada goes wicketless in an IPL game for the first time since 2018.\n\n#DCvsSRH #DCvSRH #DC #IPL",
+        "author": "smaranp2210",
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "Avg Polarity": -0.037500000000000006,
+        "hashtag(s)": [
+            "DCvsSRH",
+            "DCvSRH",
+            "DC",
+            "IPL"
+        ]
+    },
+    {
+        "id": 1321113458872586241,
+        "full_text": "RT @rpsingh: When you are a NO.1 wk/batsman in one format for India, playing IPL since 2008, 122 game, avg around 25 and strike rate of 132\u2026",
+        "author": "kishi1312",
+        "retweet_count": 13,
+        "favorite_count": 0,
+        "Avg Polarity": -0.39425,
+        "hashtag(s)": []
+    },
+    {
+        "id": 1321113454971817984,
+        "full_text": "RT @HimaDas8: Since the inception of IPL, watching @msdhoni bhaiya represent CSK team has been a treat to watch in each match. The team tha\u2026",
+        "author": "Arjunaadhf_123",
+        "retweet_count": 60,
+        "favorite_count": 0,
+        "Avg Polarity": 0.5491666666666667,
+        "hashtag(s)": []
+    },
+    {
+        "id": 1321113454321618945,
+        "full_text": "The last time Kagiso Rabada went wicketless in an IPL Match was way back in 2017 vs #SRH at Delhi - 0/59 in 4 Overs\n\nToday vs #SRH - 54/0 in 4 Overs\n\n#IPL2020 #Dream11IPL #SRHvDC",
+        "author": "Cricrajeshpk",
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "Avg Polarity": 0.0,
+        "hashtag(s)": [
+            "SRH",
+            "SRH",
+            "IPL2020",
+            "Dream11IPL",
+            "SRHvDC"
+        ]
+    },
+    {
+        "id": 1321113453365317632,
+        "full_text": "@drprashantmish6 @FinMedium @DARKHORSESTOCKS @blitzkreigm Quite surprised they are not spending on advertising during the current IPL. Looks like their focus is to conserve cash right now",
+        "author": "CAManish2509",
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "Avg Polarity": 0.34973571428571426,
+        "hashtag(s)": []
+    },
+    {
+        "id": 1321113450030923776,
+        "full_text": "IPL 2020, Live Cricket Score SRH vs DC :  \u0938\u093e\u0939\u093e (87) \u0914\u0930 \u0935\u0949\u0930\u094d\u0928\u0930 (66) \u0915\u0947 \u0926\u092e \u092a\u0930 SRH \u0928\u0947 \u0916\u0921\u093c\u093e \u0915\u093f\u092f\u093e 219/2 \u0915\u093e \u0935\u093f\u0936\u093e\u0932 \u0938\u094d\u0915\u094b\u0930 #IPL2020 #CricketDhamaka\n\nhttps://t.co/iZ6rfTClK9",
+        "author": "IndiaTVSports",
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "Avg Polarity": 0.06818181818181818,
+        "hashtag(s)": [
+            "IPL2020",
+            "CricketDhamaka"
+        ]
+    },
+    {
+        "id": 1321113444402147329,
+        "full_text": "RT @FarziCricketer: We are witnessing David Warner minus TikTok. #IPL",
+        "author": "Santosh46126390",
+        "retweet_count": 11,
+        "favorite_count": 0,
+        "Avg Polarity": -0.05,
+        "hashtag(s)": [
+            "IPL"
+        ]
+    },
+    {
+        "id": 1321113439155089410,
+        "full_text": "Bravo's Record of Most matches with Wicket in IPL(28 matches)  will be safe for minimum 2 years https://t.co/wg2JVrJJ3Y",
+        "author": "Nandha2908",
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "Avg Polarity": 0.4702,
+        "hashtag(s)": []
+    },
+    {
+        "id": 1321113438698020864,
+        "full_text": "RT @CricCrazyJohns: On 2/05/2017 - 0/59(4) vs SRH.\n\nThen at least one wicket in 25 consecutive IPL matches.\n\nOn 27/10/2020 - 0/54(4) vs SRH\u2026",
+        "author": "khanyanorman",
+        "retweet_count": 64,
+        "favorite_count": 0,
+        "Avg Polarity": -0.15,
+        "hashtag(s)": []
+    },
+    {
+        "id": 1321113436995096576,
+        "full_text": "W0w what a c0me back just 2 boundaries concerned in last 3 0vers\ud83d\ude33\ud83e\udd14\ud83d\ude44.. They did finish well \n196/2 in 17 0v now 219/2 in 20\nJust 23 runs in 3 0vers.. Well its a go0d total s0 far\ud83d\ude0d\ud83d\udcaa.. \n@DelhiCapitals Need 220 in 20 f0w qualify in the play0ffs\ud83d\udc93\n#Dream11IPL @IPL \n#SRHvsDC",
+        "author": "UmairGul078",
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "Avg Polarity": 0.25945,
+        "hashtag(s)": [
+            "Dream11IPL",
+            "SRHvsDC"
+        ]
     }
 ]
