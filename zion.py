@@ -27,7 +27,7 @@ def byUsername():
 def byQueries():
     query = input("Enter search query : ")
     num = input("Enter number of tweets : ")
-    searched_tweets = api.search(q = query, count = num)
+    searched_tweets = api.search_tweets(q = query, count = num)
     ids = []
     for tweet in searched_tweets:
         ids.append(tweet.id)
